@@ -23,10 +23,12 @@ Welcome to ShopCart, a complete e-commerce application built with React. This pr
 
 ## Technologies Used
 
+-   **JavaScript**: The primary programming language for the application's logic and interactivity. 
 -   **React**: A JavaScript library for building user interfaces.
 -   **React Router**: For declarative routing in the application.
 -   **Vite**: A fast build tool for modern web development.
 -   **CSS**: For styling the components.
+-   **HTML**: The standard markup language used to create the structure of the web pages.
 
 ## Getting Started
 

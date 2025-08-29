@@ -1,0 +1,121 @@
+/*FILE: /src/index.css */
+/* Este arquivo contém estilos CSS globais que afetam a aparência de todo o aplicativo. */
+/* Geralmente, inclui configurações de fonte, cores básicas, e estilos para elementos HTML padrão. */
+
+/* Define variáveis CSS globais e estilos para o elemento raiz (<html>) */
+:root {
+  /* Define a família de fontes padrão para todo o documento. */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* Define a altura da linha padrão para todo o texto. */
+  line-height: 1.5;
+  /* Define o peso da fonte padrão. */
+  font-weight: 400;
+
+  /* Configura o esquema de cores (claro/escuro) para suportar temas do sistema operacional. */
+  color-scheme: light dark;
+  /* Define a cor padrão do texto (quase branco) para o tema escuro. */
+  color: rgba(255, 255, 255, 0.87);
+  /* Define a cor de fundo padrão para o tema escuro. */
+  background-color: #242424;
+
+  /* Desativa a síntese de fontes para melhor controle de renderização. */
+  font-synthesis: none;
+  /* Otimiza a renderização de texto para legibilidade. */
+  text-rendering: optimizeLegibility;
+  /* Aplica suavização de fonte para WebKit (navegadores como Chrome, Safari). */
+  -webkit-font-smoothing: antialiased;
+  /* Aplica suavização de fonte para Gecko (navegadores como Firefox). */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos para links (tag <a>) */
+a {
+  /* Define o peso da fonte para links. */
+  font-weight: 500;
+  /* Define a cor dos links. */
+  color: #646cff;
+  /* Remove o sublinhado padrão dos links. */
+  text-decoration: inherit;
+}
+
+/* Estilos para links quando o mouse está sobre eles */
+a:hover {
+  /* Muda a cor do link ao passar o mouse. */
+  color: #535bf2;
+}
+
+/* Estilos para o corpo da página (tag <body>) */
+body {
+  /* Remove margens padrão do corpo. */
+  margin: 0;
+  /* Define o display como flexbox para centralizar itens. */
+  display: flex;
+  /* Centraliza itens vertical e horizontalmente dentro do corpo. */
+  place-items: center;
+  /* Define a largura mínima do corpo. */
+  min-width: 320px;
+  /* Define a altura mínima do corpo para ocupar a tela inteira. */
+  min-height: 100vh;
+}
+
+/* Estilos para títulos de nível 1 (tag <h1>) */
+h1 {
+  /* Define o tamanho da fonte. */
+  font-size: 3.2em;
+  /* Define a altura da linha para o título. */
+  line-height: 1.1;
+}
+
+/* Estilos para botões (tag <button>) */
+button {
+  /* Arredonda as bordas do botão. */
+  border-radius: 8px;
+  /* Define uma borda transparente. */
+  border: 1px solid transparent;
+  /* Define o preenchimento interno do botão. */
+  padding: 0.6em 1.2em;
+  /* Define o tamanho da fonte. */
+  font-size: 1em;
+  /* Define o peso da fonte. */
+  font-weight: 500;
+  /* Herda a família da fonte do elemento pai. */
+  font-family: inherit;
+  /* Define a cor de fundo do botão no tema escuro. */
+  background-color: #1a1a1a;
+  /* Muda o cursor para um ponteiro quando sobre o botão. */
+  cursor: pointer;
+  /* Adiciona uma transição suave para a cor da borda. */
+  transition: border-color 0.25s;
+}
+
+/* Estilos para botões quando o mouse está sobre eles */
+button:hover {
+  /* Muda a cor da borda ao passar o mouse. */
+  border-color: #646cff;
+}
+
+/* Estilos para botões quando em foco (clicado ou tabulado) */
+button:focus,
+button:focus-visible {
+  /* Remove o outline padrão e adiciona um anel de foco personalizado. */
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Regras de mídia para ajustar estilos com base no esquema de cores preferido do usuário (tema claro) */
+@media (prefers-color-scheme: light) {
+  /* Reconfigura as variáveis e cores para o tema claro */
+  :root {
+    /* Define a cor do texto para o tema claro. */
+    color: #213547;
+    /* Define a cor de fundo para o tema claro. */
+    background-color: #ffffff;
+  }
+  /* Muda a cor dos links ao passar o mouse no tema claro. */
+  a:hover {
+    color: #747bff;
+  }
+  /* Muda a cor de fundo dos botões no tema claro. */
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -2,8 +2,6 @@
 
 Welcome to ShopCart, a complete e-commerce application built with React. This project features a login page, product listing with filters, product details, a persistent shopping cart, and a checkout page.
 
-![Banner with the project title and some related images](https://via.placeholder.com/800x200.png?text=ShopCart+Project+Banner)
-
 ## Table of Contents
 
 - [Features](#features)
@@ -11,7 +9,6 @@ Welcome to ShopCart, a complete e-commerce application built with React. This pr
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 
 ## Features
@@ -63,6 +60,7 @@ You need to have Node.js and npm (or yarn) installed on your machine.
 
 The application will be available at `http://localhost:5173`.
 
-## Project Structure
+## Screenshots
 
-The project is organized as follows:
+![readme](https://github.com/ecopque/chat-ai-n8n-automation/blob/main/prints/Screenshot%20from%202025-07-22%2017-03-46.png)
+![readme](https://github.com/ecopque/chat-ai-n8n-automation/blob/main/prints/Screenshot%20from%202025-07-22%2017-03-56.png)

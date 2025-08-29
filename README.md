@@ -13,13 +13,13 @@ Welcome to ShopCart, a complete e-commerce application built with React. This pr
 
 ## Features
 
--   [cite_start]**Login Page**: User authentication with email and password validation[cite: 6]. [cite_start]The login button is disabled until the form is valid[cite: 7].
--   [cite_start]**Product Listing**: Fetches and displays a list of products from the `fakestoreapi.com` API[cite: 1, 10].
--   [cite_start]**Product Filtering**: Filter products by category[cite: 12].
--   [cite_start]**Product Details**: Displays detailed information for each product, including image, title, price, description, and rating[cite: 23].
--   [cite_start]**Shopping Cart**: Add and remove products from the cart[cite: 13]. [cite_start]The cart persists during the user's session using `localStorage`[cite: 17].
--   [cite_start]**Real-time Total**: The total price is updated in real-time as items are added to or removed from the cart[cite: 15, 16].
--   [cite_start]**Checkout**: A summary of the purchase with the total price and the option to finalize the order[cite: 26, 27].
+-   **Login Page**: User authentication with email and password validation[cite: 6]. [cite_start]The login button is disabled until the form is valid[cite: 7].
+-   **Product Listing**: Fetches and displays a list of products from the `fakestoreapi.com` API[cite: 1, 10].
+-   **Product Filtering**: Filter products by category[cite: 12].
+-   **Product Details**: Displays detailed information for each product, including image, title, price, description, and rating[cite: 23].
+-   **Shopping Cart**: Add and remove products from the cart[cite: 13]. [cite_start]The cart persists during the user's session using `localStorage`[cite: 17].
+-   **Real-time Total**: The total price is updated in real-time as items are added to or removed from the cart[cite: 15, 16].
+-   **Checkout**: A summary of the purchase with the total price and the option to finalize the order[cite: 26, 27].
 
 ## Technologies Used
 

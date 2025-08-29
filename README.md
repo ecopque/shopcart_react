@@ -64,5 +64,11 @@ The application will be available at `http://localhost:5173`.
 
 ## Screenshots
 
-![readme](https://github.com/ecopque/chat-ai-n8n-automation/blob/main/prints/Screenshot%20from%202025-07-22%2017-03-46.png)
-![readme](https://github.com/ecopque/chat-ai-n8n-automation/blob/main/prints/Screenshot%20from%202025-07-22%2017-03-56.png)
+![readme](https://github.com/ecopque/shopcart_react/blob/main/prints/Screenshot%20from%202025-08-29%2019-18-50.png)
+![readme](https://github.com/ecopque/shopcart_react/blob/main/prints/Screenshot%20from%202025-08-29%2019-18-59.png)
+![readme](https://github.com/ecopque/shopcart_react/blob/main/prints/Screenshot%20from%202025-08-29%2019-19-07.png)
+![readme](https://github.com/ecopque/shopcart_react/blob/main/prints/Screenshot%20from%202025-08-29%2019-18-18.png)
+![readme](https://github.com/ecopque/shopcart_react/blob/main/prints/Screenshot%20from%202025-08-29%2019-18-28.png)
+![readme](https://github.com/ecopque/shopcart_react/blob/main/prints/Screenshot%20from%202025-08-29%2019-18-34.png)
+![readme](https://github.com/ecopque/shopcart_react/blob/main/prints/Screenshot%20from%202025-08-29%2019-18-40.png)
+

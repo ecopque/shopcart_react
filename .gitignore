@@ -111,6 +111,8 @@ dist-ssr
 *.sw?
 
 src/pages/Login/Login_JSX_log.md
+src/pages/Products/ProductsJSX_log.md
+src/mainJSX_log.md
 
 ProductsJSX_log.md
 mainJSX_log.md
